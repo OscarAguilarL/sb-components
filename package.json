@@ -17,9 +17,10 @@
   },
   "scripts": {
     "start": "start-storybook -p 6006",
-    "build": "build-storybook",
+    "build": "build-storybook -o docs",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o docs",
+    "chromatic": "npx chromatic --project-token=3f97e65b76a3"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +46,7 @@
     "@storybook/addon-essentials": "^6.4.13",
     "@storybook/addon-links": "^6.4.13",
     "@storybook/react": "^6.4.13",
-    "babel-loader": "^8.2.3"
+    "babel-loader": "^8.2.3",
+    "chromatic": "^6.4.1"
   }
 }
