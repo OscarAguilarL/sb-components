@@ -1,5 +1,9 @@
 {
   "name": "oal-my-storybook-components",
+  "author": {
+    "name": "Oscar Aguilar",
+    "url": "https://oscar-aguilar.com"
+  },
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
